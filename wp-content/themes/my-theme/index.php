@@ -80,7 +80,7 @@ get_header();
 
         </div>
 
-        <section class="py-3 my-3 bg-light">
+        <section id="profile" class="py-3 my-3 bg-light">
 
             <div class="container">
                 <div class="row">
@@ -88,7 +88,7 @@ get_header();
                         <div class="col-lg-6">
                             <div class="about-text go-to">
                                 <h3 class="dark-color">profile</h3>
-                                <h6 class="theme-color lead">吉田 正貴</h6>
+                                <p class="theme-color lead fw-bold">吉田 正貴</p>
                                 <p>yoshida masaki</p>
                                 <p>
                                     1991年10月7日生まれ。
@@ -104,30 +104,61 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="counter py-5">
+                    <div class="counter py-5 shadow rounded">
+                        <h5 class="text-white fs-2 mx-3">言語一覧</h5>
                         <div class="row">
-                            <div class="col-6 col-lg-3">
-                                <div class="count-data text-center">
-                                    <h6 class="count h2" data-to="500" data-speed="500">3年</h6>
-                                    <p class="m-0px font-w-600">HTML</p>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>HTML</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-3">
-                                <div class="count-data text-center">
-                                    <h6 class="count h2" data-to="150" data-speed="150">150</h6>
-                                    <p class="m-0px font-w-600">Project Completed</p>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>CSS</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-3">
-                                <div class="count-data text-center">
-                                    <h6 class="count h2" data-to="850" data-speed="850">850</h6>
-                                    <p class="m-0px font-w-600">Photo Capture</p>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>JavaScript</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/js.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-3">
-                                <div class="count-data text-center">
-                                    <h6 class="count h2" data-to="190" data-speed="190">190</h6>
-                                    <p class="m-0px font-w-600">Telephonic Talk</p>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>PHP</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>MySQL</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/mysql.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 py-3">
+                                <div class="text-center">
+                                    <figure class="p-1 bg-light rounded-circle mb-3">
+                                        <span>Linux</span>
+                                        <img class="w-50 h-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/linux.svg">
+                                    </figure>
+                                    <p class="text-light fs-2">4<span class="fs-5 m-1">年</span></p>
                                 </div>
                             </div>
                         </div>
