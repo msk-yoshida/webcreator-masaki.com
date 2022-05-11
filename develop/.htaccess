@@ -1,5 +1,0 @@
-
-AuthUserFile "/home/masaki1007/webcreator-masaki.com/htpasswd/develop/.htpasswd"
-AuthName "Member Site"
-AuthType BASIC
-require valid-user
